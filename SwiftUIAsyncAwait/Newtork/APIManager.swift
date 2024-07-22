@@ -7,8 +7,6 @@
 
 import Foundation
 
-//https://jsonplaceholder.typicode.com/users
-
 typealias Hander<T> = (Result<T, NetworkError>) -> Void
 
 enum NetworkError: Error {
